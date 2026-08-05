@@ -1,0 +1,5 @@
+import common_rules
+
+val rules = common_rules.rules & @{
+  Forbidden_Attributes: {Forbidden: ["Last"], instance_name: "Forbid_Attr"}
+}

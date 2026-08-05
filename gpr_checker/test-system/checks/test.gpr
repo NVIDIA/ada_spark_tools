@@ -1,0 +1,10 @@
+project Test is
+
+  package Check is
+
+     for Default_Switches("Ada") use ("--foo");
+
+
+  end Check;
+
+end Test;

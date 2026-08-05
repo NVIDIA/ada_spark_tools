@@ -1,0 +1,12 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {
+      "Runtime": {
+        "Ada": "wibble"
+      }
+    },
+    "packages": {}
+  }
+]

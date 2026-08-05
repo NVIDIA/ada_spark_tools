@@ -1,0 +1,7 @@
+*~
+__pycache__
+.coverage*
+gnatprove
+
+gpr_parser
+gpr_parser.tar.xz

@@ -1,0 +1,31 @@
+Exit code: NON COMPLIANT
+
+test.gpr:1:8: issue: project requires a Builder package [2.2.2]
+test.gpr:3:11: issue: Cannot find Default_Switches("Ada") [2.2.3]
+test.gpr:7:37: issue: required GNATProve switch --checks-as-errors=on not present (In this process, GNATprove check messages are reviewed via diagnostic justifications, not via gnatprove output. This switch ensures that any check message will result in gnatprove not exiting without an error code.) [2.2.4]
+test.gpr:7:37: issue: required GNATProve switch --warnings=error not present (Some GNATprove warnings are used to identify potential violations of GNATprove assumptions, each of which requires manual review to ensure the violations will not lead to GNATprove false negatives. This switch ensures that any such potential violation will result in gnatprove not exiting without an error code.) [2.2.4]
+gnatprove commadline: issue: Non-qualified GNATProve switch --foo-bar=baz must not be present [2.2.6]
+gnatprove commadline: issue: Non-qualified GNATProve switch --wibble must not be present [2.2.6]
+test.gpr:10:11: issue: Cannot find Default_Switches("Ada") [2.2.5]
+test.gpr:1:8: issue: Test does not define a Runtime [2.2.2]
+test.gpr:1:8: issue: Test does not define a Target [2.2.2]
+=====================================
+= GPR Validator Report for test.gpr =
+=====================================
+1 file(s) checked:
+* test.gpr
+
+Checklist items fully checked:
+* 2.2.2 (gpr project correctly configured              ): 3 findings
+* 2.2.3 (gpr compiler package correctly configured     ): 1 finding
+* 2.2.4 (gpr prove package does not use banned switches): 2 findings
+* 2.2.5 (gpr check package does not use banned switches): 1 finding
+* 2.2.6 (no non-safety qualified switches used         ): 2 findings
+* 2.3.1 (forward_progress is correctly configured      ): VERIFIED
+
+Checklist items partially checked:
+* 4.2.4 (all required gnatprove switches used          ): VERIFIED
+* 4.3.3 (all required gnatcheck switches are used      ): VERIFIED
+* 4.3.4 (all required gnatcheck rules are enabled      ): VERIFIED
+
+Overall verdict: NON COMPLIANT

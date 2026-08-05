@@ -1,0 +1,36 @@
+[
+  {
+    "kind": "Project",
+    "name": "Base",
+    "attributes": {},
+    "packages": {
+      "Prove": {
+        "kind": "Package",
+        "name": "Prove",
+        "attributes": {}
+      },
+      "Compiler": {
+        "kind": "Package",
+        "name": "Compiler",
+        "attributes": {}
+      }
+    }
+  },
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {
+      "Prove": {
+        "kind": "Package",
+        "name": "Prove",
+        "attributes": {}
+      },
+      "Compiler": {
+        "kind": "Package",
+        "name": "Compiler",
+        "attributes": {}
+      }
+    }
+  }
+]

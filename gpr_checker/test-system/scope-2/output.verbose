@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:4:39: error: unknown symbol UNKNOWN

@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {
+      "Runtime": {
+        "C": [
+          "potato_runtime"
+        ]
+      }
+    },
+    "packages": {}
+  }
+]

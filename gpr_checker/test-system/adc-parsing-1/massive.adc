@@ -1,0 +1,1102 @@
+pragma restrictions ( no_exception_propagation );
+pragma restrictions ( no_exception_propagation );
+pragma restrictions ( no_exception_propagation );
+pragma restrictions ( no_exception_propagation );
+pragma Assertion_Policy (Ghost => Ignore,
+                         Pre => Ignore,
+                         Post => Ignore,
+                         Default_Initial_Condition => Ignore);
+
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Overflow_Mode (General => Strict, Assertions => Eliminated);
+pragma SPARK_Mode;
+pragma Profile (Jorvik);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma SPARK_Mode (On);
+pragma SPARK_Mode (On);
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Warnings (GNATprove, Off, "subprogram * has no effect",
+                 Reason => "cut-down examples have intentionnally no effect");
+pragma SPARK_Mode (On);
+
+pragma Unevaluated_Use_Of_Old (Allow);
+--  This is a comment
+
+pragma Warnings (GNATprove, Off, "no contextual analysis");
+pragma Warnings (GNATprove, Off, "implicit function contract not available for proof");
+--  This is a comment
+
+pragma Warnings (Off, "index for * may assume lower bound of 1");
+--  This is a comment
+pragma Restrictions (No_Entry_Calls_In_Elaboration_Code);
+pragma Restrictions (No_Entry_Calls_In_Elaboration_Code);
+pragma Partition_Elaboration_Policy (Sequential);pragma Partition_Elaboration_Policy (Sequential);pragma Partition_Elaboration_Policy (Sequential);pragma Partition_Elaboration_Policy (Sequential);pragma Restrictions (No_Entry_Calls_In_Elaboration_Code);
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Elaboration_Code);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+
+--  This is a comment
+pragma Restrictions (No_Exceptions);
+
+
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+pragma Suppress_Exception_Locations;
+
+pragma Aggregate_Individually_Assign;
+
+--  This is a comment
+--  This is a comment
+pragma Restrictions (No_Direct_Boolean_Operators);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Elaboration_Code);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+
+--  This is a comment
+pragma Restrictions (No_Exceptions);
+
+
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+pragma Suppress_Exception_Locations;
+
+pragma Aggregate_Individually_Assign;
+
+--  This is a comment
+--  This is a comment
+pragma Restrictions (No_Direct_Boolean_Operators);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Elaboration_Code);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+
+--  This is a comment
+pragma Restrictions (No_Exceptions);
+
+
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+pragma Suppress_Exception_Locations;
+
+pragma Aggregate_Individually_Assign;
+
+--  This is a comment
+--  This is a comment
+pragma Restrictions (No_Direct_Boolean_Operators);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Discard_Names;
+pragma Restrictions (No_Enumeration_Maps);
+pragma Restrictions (No_Exception_Handlers);
+pragma Restrictions (No_Exception_Registration);
+pragma Restrictions (No_Finalization);
+pragma Restrictions (No_Tasking);
+pragma Restrictions (No_Protected_Types);
+pragma Restrictions (No_Delay);
+pragma Restrictions (No_Dispatch);
+pragma Restrictions (No_Implicit_Dynamic_Code);
+pragma Restrictions (No_Secondary_Stack);
+pragma Restrictions (No_IO);
+pragma Restrictions (No_Implicit_Aliasing);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Secondary_Stack);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Suppress (All_Checks);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Discard_Names;
+pragma Restrictions (No_Enumeration_Maps);
+pragma Restrictions (No_Exception_Handlers);
+pragma Restrictions (No_Exception_Registration);
+pragma Restrictions (No_Finalization);
+pragma Restrictions (No_Tasking);
+pragma Restrictions (No_Protected_Types);
+pragma Restrictions (No_Delay);
+pragma Restrictions (No_Dispatch);
+pragma Restrictions (No_Implicit_Dynamic_Code);
+pragma Restrictions (No_Secondary_Stack);
+pragma Restrictions (No_IO);
+pragma Restrictions (No_Implicit_Aliasing);
+pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Secondary_Stack);
+pragma SPARK_Mode (On);
+pragma Restrictions (No_Secondary_Stack);
+pragma Restrictions (No_Elaboration_Code);
+pragma Assertion_Policy(Ignore);
+pragma Suppress (All_Checks);
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+
+pragma Restrictions (No_Use_Of_Pragma => Interface);
+pragma Restrictions (No_Use_Of_Pragma => Linker_Options);
+pragma Restrictions (No_Dependence => System.Machine_Code);
+pragma Restrictions (No_Dependence => Machine_Code);
+pragma Restrictions (No_Secondary_Stack);
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+
+pragma SPARK_Mode (On);
+pragma Profile (Jorvik);
+pragma Partition_Elaboration_Policy (Sequential);
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+
+pragma SPARK_Mode (On);
+pragma profile (Jorvik);
+pragma Partition_Elaboration_Policy(Sequential);
+pragma Restrictions (No_Exception_Propagation);
+ --  This is a comment
+ --  This is a comment
+ --  This is a comment
+ --  This is a comment
+ --  This is a comment
+ --  This is a comment
+ --  This is a comment
+ --  This is a comment
+ --  This is a comment
+
+pragma SPARK_Mode (On);
+pragma Profile (Jorvik);
+pragma Partition_Elaboration_Policy (Sequential);
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+
+pragma Profile(Jorvik);
+pragma Partition_Elaboration_Policy(Sequential);
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+
+pragma SPARK_Mode (On);
+pragma profile (Jorvik);
+pragma Partition_Elaboration_Policy(Sequential);
+pragma Restrictions (No_Exception_Propagation);
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+
+pragma Partition_Elaboration_Policy(Sequential);
+pragma Profile (Jorvik);
+pragma Restrictions (No_Exception_Propagation);
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+--  This is a comment
+
+--  This is a comment
+--  This is a comment
+--  This is a comment

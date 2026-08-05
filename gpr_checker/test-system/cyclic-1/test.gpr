@@ -1,0 +1,4 @@
+with "foo.gpr";
+
+project Test is
+end Test;

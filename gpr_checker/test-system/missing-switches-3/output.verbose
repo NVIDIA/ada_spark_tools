@@ -1,0 +1,48 @@
+Exit code: NON COMPLIANT
+
+test.gpr:1:8: issue: project requires a Builder package [2.2.2]
+test.gpr:5:32: warning: This should be Default_Switches(others) instead
+test.gpr:5:32: issue: required Compiler switch -gnatwa not present (Enables warnings that are not controversial.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -Wall not present (Enables warnings that are not controversial.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatw.d not present (Expected to provide greater clarity to warnings. (Also, other compilers do this by default.)) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatwe not present (Treating warnings as errors results in warnings being taken seriously and results in cleaner build output) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -Werror not present (Treating warnings as errors results in warnings being taken seriously and results in cleaner build output) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatwh not present (Implicitly-hidden declarations are a potential source of confusion when reading code.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatw.h not present (Record representation clauses should be complete and fully specify the layout, and that a hole might be an indication of an error.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatw.j not present (Per AdaCore (see [V413-003]), the chief designer of Ada 95 believes that Ada "should have disallowed ... adding visible operations to a tagged type after deriving a private extension from it" due to the confusion created. The capability also does not appear to add value to the language.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatw.k not present (As warned by AdaCore, redefining names in package Standard could lead to confusion.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatwl not present (This warning appears to prevent elaboration problems that could lead to exceptions) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatw.o not present (This switch enables warnings that are a straightforward extension of warnings enabled by -gnatwu/-gnatwa. For consistency, enable these warnings.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatw_r not present (Record representation clauses should be structurally consistent with the associated record type definitions to ensure a complete consideration of the constraints on representation.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatw.s not present (Record representation clauses should not contradict the associated record type definitions.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatwt not present (It is expected that every code path within a compilation unit will be reachable without modification of the compilation unit so that every code path can be tested using the same object code as what ships to customers) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatw.w not present (Enables useful warnings about misuse of Warnings Off pragmas.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatw.X not present (Necessary when using pragma Restrictions (No_Exception_Propagation) to avoid spurious warnings compiling SPARK code (see V223-002)) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -fcallgraph-info=su,da not present (Necessary to ensure that GNATstack produces correct output in the Check_Stack_Usage step.) [2.2.3]
+test.gpr:5:32: issue: required Compiler switch -gnatyr not present (Unique IDs (see section Traceability Model) are case sensitive and built from local IDs sometimes derived from identifiers. To remove ambiguity concerning the correct local ID (and thus the correct unique ID) for a comment or syntactic construct, all references to the same entity must agree about the case of the associated identifiers.) [2.2.3]
+test.gpr:5:32: issue: Non-qualified Compiler switch -O3 must not be present [2.2.6]
+test.gpr:1:8: issue: project requires a Prove package [4.2.4]
+test.gpr:1:8: issue: project requires a Check package [4.3.3]
+test.gpr:1:8: issue: zero gnatcheck rules are enabled [4.3.4]
+test.gpr:1:8: issue: Test does not define a Runtime [2.2.2]
+test.gpr:1:8: issue: Test does not define a Target [2.2.2]
+=====================================
+= GPR Validator Report for test.gpr =
+=====================================
+1 file(s) checked:
+* test.gpr
+
+Checklist items fully checked:
+* 2.2.2 (gpr project correctly configured              ): 3 findings
+* 2.2.3 (gpr compiler package correctly configured     ): 18 findings
+* 2.2.4 (gpr prove package does not use banned switches): VERIFIED
+* 2.2.5 (gpr check package does not use banned switches): VERIFIED
+* 2.2.6 (no non-safety qualified switches used         ): 1 finding
+* 2.3.1 (forward_progress is correctly configured      ): VERIFIED
+
+Checklist items partially checked:
+* 4.2.4 (all required gnatprove switches used          ): 1 finding
+* 4.3.3 (all required gnatcheck switches are used      ): 1 finding
+* 4.3.4 (all required gnatcheck rules are enabled      ): 1 finding
+
+Overall verdict: NON COMPLIANT

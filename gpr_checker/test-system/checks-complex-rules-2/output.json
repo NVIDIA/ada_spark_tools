@@ -1,0 +1,279 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {
+      "Target": "aarch64-nto-qnx",
+      "Runtime": {
+        "Ada": "/POTATO/runtime/aarch64_qnx_runtime/latest"
+      },
+      "Toolchain_Name": {
+        "C": "QNX_QCC_VER_12_2_0",
+        "C++": "QNX_QCC_VER_12_2_0"
+      },
+      "Languages": [
+        "ada",
+        "c"
+      ],
+      "Main": [
+        "potato.adb"
+      ]
+    },
+    "packages": {
+      "Builder": {
+        "kind": "Package",
+        "name": "Builder",
+        "attributes": {
+          "Global_Configuration_Pragmas": "global_config_pragmas_qnx.adc",
+          "Executable": {
+            "potato.adb": "potato"
+          },
+          "Switches": {
+            "others": [
+              "-we",
+              "-s",
+              "-q"
+            ]
+          }
+        }
+      },
+      "Binder": {
+        "kind": "Package",
+        "name": "Binder",
+        "attributes": {
+          "Switches": {
+            "potato.adb": [
+              "-shared"
+            ]
+          },
+          "Bindfile_Option_Substitution": {
+            "-shared": [
+              ""
+            ]
+          }
+        }
+      },
+      "Compiler": {
+        "kind": "Package",
+        "name": "Compiler",
+        "attributes": {
+          "Default_Switches": {
+            "C": [
+              "-I./",
+              "-fstack-protector-strong",
+              "-O2",
+              "-fno-aggressive-loop-optimizations",
+              "-isystem",
+              "/POTATO/usr/include",
+              "-Werror",
+              "-Wall",
+              "-Wformat",
+              "-Wchar-subscripts",
+              "-Wparentheses",
+              "-Wtrigraphs",
+              "-Wpointer-arith",
+              "-Wmissing-declarations",
+              "-Wmain",
+              "-Wreturn-type",
+              "-Wmultichar",
+              "-Wunused",
+              "-Wmissing-braces",
+              "-Wstrict-aliasing",
+              "-Wsign-compare",
+              "-Waddress",
+              "-Wstringop-truncation",
+              "-Wif-not-aligned",
+              "-Wrestrict",
+              "-Wmissing-attributes",
+              "-Wpacked-not-aligned",
+              "-fPIC",
+              "-DPIC",
+              "-Wno-error=sign-compare",
+              "-Wno-error=array-bounds",
+              "-Wno-error=redundant-decls",
+              "-Wno-error=enum-compare",
+              "-Wno-error=strict-aliasing",
+              "-Wno-error=unused-but-set-variable",
+              "-Wno-error=stringop-truncation",
+              "-Wno-error=stringop-overflow",
+              "-Wno-error=format-truncation",
+              "-Wno-error=maybe-uninitialized",
+              "-Wno-error=duplicate-decl-specifier",
+              "-Wno-error=format-overflow",
+              "-Wno-error=unused-const-variable",
+              "-Wno-error=parentheses",
+              "-Wno-error=incompatible-pointer-types",
+              "-Wno-error=packed-not-aligned",
+              "-Wno-error=missing-braces",
+              "-Wno-error=missing-prototypes",
+              "-Wno-error=deprecated-declarations",
+              "-Wno-error=format",
+              "-Wno-error=aligned-new=",
+              "-Wno-error=restrict",
+              "-Wno-error=address",
+              "-Wno-error=address-of-packed-member",
+              "-Wno-error=cpp",
+              "-Wno-error=format-extra-args",
+              "-Wno-error=narrowing",
+              "-Wno-error=pessimizing-move",
+              "-Wno-error=range-loop-construct",
+              "-Wno-error=return-local-addr",
+              "-Wno-error=unused-variable",
+              "-DNDEBUG",
+              "-g",
+              "-D_FORTIFY_SOURCE=2",
+              "-Wimplicit",
+              "-Wmissing-prototypes",
+              "-Wpointer-sign",
+              "-Wstrict-prototypes",
+              "-Wno-error=implicit-function-declaration"
+            ],
+            "C++": [
+              "-std=c++17",
+              "-nostdinc",
+              "-nostdinc++",
+              "-Wno-error=class-memaccess",
+              "-Wno-error=catch-value",
+              "-I./",
+              "-fstack-protector-strong",
+              "-O2",
+              "-fno-aggressive-loop-optimizations",
+              "-isystem",
+              "/POTATO/usr/include",
+              "-Werror",
+              "-Wall",
+              "-Wformat",
+              "-Wchar-subscripts",
+              "-Wparentheses",
+              "-Wtrigraphs",
+              "-Wpointer-arith",
+              "-Wmissing-declarations",
+              "-Wmain",
+              "-Wreturn-type",
+              "-Wmultichar",
+              "-Wunused",
+              "-Wmissing-braces",
+              "-Wstrict-aliasing",
+              "-Wsign-compare",
+              "-Waddress",
+              "-Wstringop-truncation",
+              "-Wif-not-aligned",
+              "-Wrestrict",
+              "-Wmissing-attributes",
+              "-Wpacked-not-aligned",
+              "-fPIC",
+              "-DPIC",
+              "-Wno-error=sign-compare",
+              "-Wno-error=array-bounds",
+              "-Wno-error=redundant-decls",
+              "-Wno-error=enum-compare",
+              "-Wno-error=strict-aliasing",
+              "-Wno-error=unused-but-set-variable",
+              "-Wno-error=stringop-truncation",
+              "-Wno-error=stringop-overflow",
+              "-Wno-error=format-truncation",
+              "-Wno-error=maybe-uninitialized",
+              "-Wno-error=duplicate-decl-specifier",
+              "-Wno-error=format-overflow",
+              "-Wno-error=unused-const-variable",
+              "-Wno-error=parentheses",
+              "-Wno-error=incompatible-pointer-types",
+              "-Wno-error=packed-not-aligned",
+              "-Wno-error=missing-braces",
+              "-Wno-error=missing-prototypes",
+              "-Wno-error=deprecated-declarations",
+              "-Wno-error=format",
+              "-Wno-error=aligned-new=",
+              "-Wno-error=restrict",
+              "-Wno-error=address",
+              "-Wno-error=address-of-packed-member",
+              "-Wno-error=cpp",
+              "-Wno-error=format-extra-args",
+              "-Wno-error=narrowing",
+              "-Wno-error=pessimizing-move",
+              "-Wno-error=range-loop-construct",
+              "-Wno-error=return-local-addr",
+              "-Wno-error=unused-variable",
+              "-DNDEBUG",
+              "-g",
+              "-D_FORTIFY_SOURCE=2"
+            ],
+            "Ada": [
+              "-Wall",
+              "-gnat2022",
+              "-gnatwa",
+              "-gnatw.w",
+              "-gnatw.X",
+              "-gnatw.d",
+              "-gnatw.h",
+              "-gnatw.k",
+              "-gnatwl",
+              "-gnatw.o",
+              "-gnatw_r",
+              "-gnatw.s",
+              "-gnatwt",
+              "-Werror",
+              "-gnatwe",
+              "-gnatw.j",
+              "-gnatwh",
+              "-fcallgraph-info=su,da",
+              "-gnatyr",
+              "-fstack-protector-strong",
+              "-Os",
+              "-gnatp",
+              "-gnatyy",
+              "-gnatyM95",
+              "-fPIC"
+            ]
+          },
+          "Local_Configuration_Pragmas": "spark.adc"
+        }
+      },
+      "Analyzer": {
+        "kind": "Package",
+        "name": "Analyzer",
+        "attributes": {
+          "Switches": {
+            "inspector": [
+              "-gnatd.I"
+            ]
+          }
+        }
+      },
+      "Check": {
+        "kind": "Package",
+        "name": "Check",
+        "attributes": {
+          "Default_Switches": {
+            "Ada": [
+              "--show-rule",
+              "--rule-file=gnatcheck-rules.lkql"
+            ]
+          }
+        }
+      },
+      "Prove": {
+        "kind": "Package",
+        "name": "Prove",
+        "attributes": {
+          "Proof_Switches": {
+            "Ada": [
+              "-j0",
+              "--info",
+              "--mode=all",
+              "--prover=altergo,cvc5,z3",
+              "--warnings=error",
+              "--checks-as-errors=on",
+              "-U",
+              "--timeout=1200",
+              "--memlimit=0",
+              "--quiet",
+              "--timeout=15",
+              "--level=1"
+            ]
+          }
+        }
+      }
+    }
+  }
+]

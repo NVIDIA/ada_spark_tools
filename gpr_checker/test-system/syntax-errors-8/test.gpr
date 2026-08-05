@@ -1,0 +1,2 @@
+aggregate foo project Test is
+end Test;

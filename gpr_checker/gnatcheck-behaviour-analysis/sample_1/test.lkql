@@ -1,0 +1,5 @@
+import common_rules
+
+val rules = common_rules.rules & @{
+  Redundant_Null_Statements
+}

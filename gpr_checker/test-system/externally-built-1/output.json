@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "Project",
+    "name": "Blah",
+    "attributes": {
+      "Externally_Built": "true"
+    },
+    "packages": {}
+  },
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {
+      "Externally_Built": "false"
+    },
+    "packages": {
+      "Builder": {
+        "kind": "Package",
+        "name": "Builder",
+        "attributes": {
+          "Global_Configuration_Pragmas": "/global_config_pragmas.adc"
+        }
+      }
+    }
+  }
+]

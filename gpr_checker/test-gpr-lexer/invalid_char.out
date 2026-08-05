@@ -1,0 +1,2 @@
+Token(IDENTIFIER, 'foo')
+invalid_char.gpr:1:3: error: unexpected character: '?'

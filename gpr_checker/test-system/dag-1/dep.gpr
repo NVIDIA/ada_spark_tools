@@ -1,0 +1,4 @@
+with "base.gpr";
+
+project Dep is
+end Dep;

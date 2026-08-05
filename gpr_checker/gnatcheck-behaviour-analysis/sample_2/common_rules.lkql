@@ -1,0 +1,3 @@
+val rules = @{
+  Forbidden_Attributes: {Forbidden: ["First"], instance_name: "Forbid_Attr"}
+}

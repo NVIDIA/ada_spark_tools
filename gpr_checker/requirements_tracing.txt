@@ -1,0 +1,4 @@
+trlc>=3.0
+bmw-lobster-core==1.0.6
+bmw-lobster-tool-python==1.0.6
+bmw-lobster-tool-trlc==1.0.6

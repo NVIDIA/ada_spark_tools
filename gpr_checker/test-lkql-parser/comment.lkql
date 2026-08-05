@@ -1,0 +1,5 @@
+# This is a comment
+
+val rules = @{}
+
+# This is another comment without a trailing EOL

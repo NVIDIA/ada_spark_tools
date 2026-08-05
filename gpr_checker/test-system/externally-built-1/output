@@ -1,0 +1,10 @@
+Exit code: NON COMPLIANT
+
+blah.gpr:1:8: info: skipping externally build project
+test.gpr:5:10: error: cannot read configuration pragmas file /global_config_pragmas.adc
+test.gpr:2:8: issue: project requires a Compiler package [2.2.3]
+test.gpr:2:8: issue: project requires a Prove package [4.2.4]
+test.gpr:2:8: issue: project requires a Check package [4.3.3]
+test.gpr:2:8: issue: zero gnatcheck rules are enabled [4.3.4]
+test.gpr:2:8: issue: Test does not define a Runtime [2.2.2]
+test.gpr:2:8: issue: Test does not define a Target [2.2.2]

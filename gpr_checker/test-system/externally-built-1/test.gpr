@@ -1,0 +1,7 @@
+with "blah.gpr";
+project Test is
+   for Externally_Built use "false";
+   package Builder is
+      for Global_Configuration_Pragmas use "/global_config_pragmas.adc";
+   end Builder;
+end Test;

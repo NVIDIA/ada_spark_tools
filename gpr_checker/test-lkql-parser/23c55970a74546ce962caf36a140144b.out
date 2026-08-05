@@ -1,0 +1,13 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (actual_parameters)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (forbidden)
+                     List_Literal
+                        String_Literal (main.f1)
+                        String_Literal (x)
+                        String_Literal (main.test.v1)

@@ -1,0 +1,3 @@
+val rules = @{
+    restrictions: [{arg: ["No_Access_Subprograms", "No_Floating_Point", "No_Protected_Types", "No_Use_Of_Entity => Ada.Task_Identification.Current_Task", "No_Use_Of_Entity => Synchronous_Task_Control"]}]
+}

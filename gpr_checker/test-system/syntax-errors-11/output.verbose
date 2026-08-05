@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:4:7: error: end token mismatch, should be Compiler

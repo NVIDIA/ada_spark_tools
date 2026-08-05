@@ -1,0 +1,21 @@
+val rules = @{
+    Restrictions: [{
+        instance_name: "base rules",
+        arg: ["No_Use_Of_Entity => Synchronous_Task_Control",
+              "No_Use_Of_Entity => Ada.Task_Identification.Current_Task"]
+    }]
+}
+
+val ada_rules = {
+    Restrictions: [{
+        instance_name: "ada rules",
+        arg: ["No_Protected_Types"]
+    }]
+}
+
+val spark_rules = {
+    Restrictions: [{
+        instance_name: "spark rules",
+        arg: ["No_Floating_Point"]
+    }]
+}

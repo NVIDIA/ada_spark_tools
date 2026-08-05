@@ -1,0 +1,11 @@
+with "base.gpr";
+
+project Test is
+
+   package Prove renames Base.Prove;
+
+   package Compiler extends Base.Compiler is
+
+   end Compiler;
+
+end Test;

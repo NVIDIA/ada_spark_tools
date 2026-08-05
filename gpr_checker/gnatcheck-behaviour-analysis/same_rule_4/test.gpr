@@ -1,0 +1,9 @@
+project Example is
+
+   for Source_Dirs use ("../common");
+
+   package Check is
+      for Rule_File use ("test.lkql", "additional.lkql");
+   end Check;
+
+end Example;

@@ -1,0 +1,22 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (identifier_suffixes)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (type_suffix)
+                     String_Literal (_T)
+                  Object_Member (instance_name)
+                     String_Literal (my_alias)
+Value_Declaration (ada_rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (goto_statements)
+Value_Declaration (spark_rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (ada_2022_in_ghost_code)

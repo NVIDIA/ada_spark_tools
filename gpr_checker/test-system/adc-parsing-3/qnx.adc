@@ -1,0 +1,2 @@
+pragma Restrictions (No_Specification_Of_Aspect => Max_Entry_Queue_Length);
+pragma Restrictions (No_Specification_Of_Aspect => Max_Entry_Queue_Depth);

@@ -1,0 +1,8 @@
+project Base is
+
+   package Prove is
+      for Proof_Switches("Ada") use ("--checks-as-errors=on",
+                                     "--warnings=error");
+   end Prove;
+
+end Base;

@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:3:28: error: duplicate literal definition of foo in T

@@ -1,0 +1,8 @@
+project Test is
+
+   package Compiler is
+      for Default_Switches ("C") use ("-O2");
+      for Switches (others) use ("-O3");
+   end Compiler;
+
+end Test;

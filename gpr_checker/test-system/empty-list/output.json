@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {
+      "Compiler": {
+        "kind": "Package",
+        "name": "Compiler",
+        "attributes": {
+          "Default_Switches": {
+            "Ada": []
+          }
+        }
+      }
+    }
+  }
+]

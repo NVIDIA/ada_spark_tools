@@ -1,0 +1,3 @@
+gnatcheck: test.lkql:3:13: Unsupported operation: Object & Object (test.lkql)
+gnatcheck: No rule to check specified
+try "gnatcheck --help" for more information.

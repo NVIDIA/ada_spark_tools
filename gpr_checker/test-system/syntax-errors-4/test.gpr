@@ -1,0 +1,3 @@
+project Test is
+   for Main use Foo.Bar.Baz.Bork;
+end Test;

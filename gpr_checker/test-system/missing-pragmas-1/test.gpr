@@ -1,0 +1,4 @@
+project Test is
+   package Builder is
+   end Builder;
+end Test;

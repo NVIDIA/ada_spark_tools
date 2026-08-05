@@ -1,0 +1,5 @@
+import base
+
+val rules = base.ada_rules & @{
+  Goto_Statements
+}

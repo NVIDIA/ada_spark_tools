@@ -1,0 +1,29 @@
+val rules = @{
+
+    ada_2022_in_ghost_code,
+
+    forbidden_attributes: {
+	forbidden: ["initialized"]
+    },
+
+    metrics_cyclomatic_complexity: {
+	n: 10
+    },
+
+    SPARK_Procedures_Without_Globals,
+
+    forbidden_pragmas: {
+	forbidden: ["validity_checks",
+	            "assertion_policy",
+	            "ignore_pragma"]
+    },
+
+    restrictions: {
+	arg: ["No_Floating_Point",
+              "No_Protected_Types",
+	      "No_Specification_Of_Aspect => Iterable",
+	      "Max_Protected_Entries => 0",
+	      "No_Use_Of_Entity => Synchronous_Task_Control",
+	      "No_Use_Of_Entity => Ada.Task_Identification.Current_Task"]
+    }
+}

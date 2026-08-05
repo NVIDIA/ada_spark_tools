@@ -1,0 +1,4 @@
+Exit code: COMPLIANT
+
+test.gpr:4:19: info: using default value '' for external GPR_TOOL
+global_config_pragmas_qnx.adc: warning: could not find correct definition for user aspect Forward_Progress [2.3.1]

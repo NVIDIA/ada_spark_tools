@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:2:7: error: expected string, reference or brackets

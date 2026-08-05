@@ -1,0 +1,4 @@
+Exit code: COMPLIANT
+
+test.gpr:3:0: warning: duplicate skip file pragma
+test.gpr:6:8: info: skipping validation of Test: wibble reason

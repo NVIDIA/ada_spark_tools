@@ -1,0 +1,5 @@
+import base
+
+val rules = base.rules & @{
+  Redundant_Null_Statements
+}

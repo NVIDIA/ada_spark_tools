@@ -1,0 +1,25 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {
+      "Compiler": {
+        "kind": "Package",
+        "name": "Compiler",
+        "attributes": {
+          "Default_Switches": {
+            "C": [
+              "-O2"
+            ]
+          },
+          "Switches": {
+            "others": [
+              "-O3"
+            ]
+          }
+        }
+      }
+    }
+  }
+]

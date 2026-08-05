@@ -1,0 +1,12 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (direct_equalities)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (actuals)
+                     List_Literal
+                        String_Literal (main.TEST.v)
+                        String_Literal (Main.b)

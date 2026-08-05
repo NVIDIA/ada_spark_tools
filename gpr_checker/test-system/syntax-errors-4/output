@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:2:27: error: expected SEMICOLON, got DOT

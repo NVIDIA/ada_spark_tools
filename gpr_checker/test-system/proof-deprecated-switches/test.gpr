@@ -1,0 +1,11 @@
+project Test is
+
+  package Prove is
+
+     for Switches use ("-U",
+                       "--checks-as-errors=on",
+                       "--warnings=error");
+
+  end Prove;
+
+end Test;

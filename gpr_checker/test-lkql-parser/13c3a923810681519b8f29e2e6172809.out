@@ -1,0 +1,12 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (restrictions)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (arg)
+                     List_Literal
+                        String_Literal (Max_Task_Entries=>2)
+                        String_Literal (No_Access_Subprograms)

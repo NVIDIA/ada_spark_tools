@@ -1,0 +1,36 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (identifier_suffixes)
+            List_Literal
+               Object_Literal
+                  Default_Allowed: False
+                  Symbol_Table
+                     Object_Member (access_suffix)
+                        String_Literal (_PTR)
+                     Object_Member (type_suffix)
+                        String_Literal (_T)
+                     Object_Member (constant_suffix)
+                        String_Literal (_C)
+                     Object_Member (interrupt_suffix)
+                        String_Literal (_Hdl)
+                     Object_Member (instance_name)
+                        String_Literal (first_convention)
+               Object_Literal
+                  Default_Allowed: False
+                  Symbol_Table
+                     Object_Member (access_suffix)
+                        String_Literal (_A)
+                     Object_Member (instance_name)
+                        String_Literal (other_convention)
+Value_Declaration (ada_rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (goto_statements)
+Value_Declaration (spark_rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (ada_2022_in_ghost_code)

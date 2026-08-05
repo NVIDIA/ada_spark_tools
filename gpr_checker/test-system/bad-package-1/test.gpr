@@ -1,0 +1,4 @@
+project Test is
+   package Naming is
+   end Naming;
+end Test;

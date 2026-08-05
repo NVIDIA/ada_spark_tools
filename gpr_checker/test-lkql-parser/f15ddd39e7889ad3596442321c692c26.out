@@ -1,0 +1,10 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (name_clashes)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (dictionary_file)
+                     String_Literal (names.txt)

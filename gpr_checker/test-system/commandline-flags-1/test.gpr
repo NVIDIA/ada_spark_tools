@@ -1,0 +1,13 @@
+project Test is
+
+   package Compiler is
+   end Compiler;
+
+   package Prove is
+      for Proof_Switches ("Ada") use ("-U");
+   end Prove;
+
+   package Check is
+   end Check;
+
+end Test;

@@ -1,0 +1,3 @@
+project Base is
+   type T is ("kitten");
+end Base;

@@ -1,0 +1,3 @@
+val rules = @{
+    restrictions: [{arg: ["No_Access_Subprograms"]}]
+}

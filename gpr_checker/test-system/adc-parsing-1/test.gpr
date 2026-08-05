@@ -1,0 +1,7 @@
+project Test is
+
+	package Builder is
+		for Global_Configuration_Pragmas use "massive.adc";
+	end Builder;
+
+end Test;

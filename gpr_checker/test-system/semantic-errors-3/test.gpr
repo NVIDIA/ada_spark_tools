@@ -1,0 +1,6 @@
+with "base.gpr";
+
+project Test extends Base is
+   Foo : T := "foo";
+   Bar : Q := "foo";
+end Test;

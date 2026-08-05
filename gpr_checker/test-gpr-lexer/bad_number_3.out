@@ -1,0 +1,2 @@
+ADC_Token(KEYWORD, 'pragma')
+bad_number_3.adc:1:10: error: only a single decimal separator is permitted

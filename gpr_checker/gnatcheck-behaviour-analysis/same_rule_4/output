@@ -1,0 +1,2 @@
+gnatcheck: test.gpr:6:11: error: attribute "Check'Rule_File" expects a single value
+try "gnatcheck --help" for more information.

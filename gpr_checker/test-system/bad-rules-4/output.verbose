@@ -1,0 +1,30 @@
+Exit code: NON COMPLIANT
+
+test.gpr:1:8: issue: project requires a Builder package [2.2.2]
+test.gpr:1:8: issue: project requires a Compiler package [2.2.3]
+test.gpr:1:8: issue: project requires a Prove package [4.2.4]
+rules.lkql:1:4: issue: rule Forbidden_Pragmas does not contain Extensions_Allowed in attribute forbidden in spark+ada (GNAT language extensions are outside certification scope) [4.3.4]
+rules.lkql:1:4: issue: rule Forbidden_Pragmas does not contain Validity_Checks in attribute forbidden in spark+ada (Required because pragma Validity_Checks is not safety-certified) [4.3.4]
+rules.lkql:1:4: issue: rule Forbidden_Pragmas does not contain Ignore_Pragma in attribute forbidden in spark+ada (Required because pragma Ignore_Pragma can  cause SPARK to be silently disabled) [4.3.4]
+test.gpr:1:8: issue: Test does not define a Runtime [2.2.2]
+test.gpr:1:8: issue: Test does not define a Target [2.2.2]
+=====================================
+= GPR Validator Report for test.gpr =
+=====================================
+1 file(s) checked:
+* test.gpr
+
+Checklist items fully checked:
+* 2.2.2 (gpr project correctly configured              ): 3 findings
+* 2.2.3 (gpr compiler package correctly configured     ): 1 finding
+* 2.2.4 (gpr prove package does not use banned switches): VERIFIED
+* 2.2.5 (gpr check package does not use banned switches): VERIFIED
+* 2.2.6 (no non-safety qualified switches used         ): VERIFIED
+* 2.3.1 (forward_progress is correctly configured      ): VERIFIED
+
+Checklist items partially checked:
+* 4.2.4 (all required gnatprove switches used          ): 1 finding
+* 4.3.3 (all required gnatcheck switches are used      ): VERIFIED
+* 4.3.4 (all required gnatcheck rules are enabled      ): 3 findings
+
+Overall verdict: NON COMPLIANT

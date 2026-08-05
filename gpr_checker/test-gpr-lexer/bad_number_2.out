@@ -1,0 +1,2 @@
+ADC_Token(KEYWORD, 'pragma')
+ADC_Token(NUMBER, '5')

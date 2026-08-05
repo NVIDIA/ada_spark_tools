@@ -1,0 +1,16 @@
+project Test is
+
+   type T is ("foo");
+
+   Foo : T := external("FOO", "foo");
+
+   case Foo is
+      when "foo" =>
+         null;
+      when others =>
+         null;
+      when others =>
+         null;
+   end case;
+
+end Test;

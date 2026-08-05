@@ -1,0 +1,10 @@
+project Example is
+
+   for Source_Dirs use ("../common");
+
+   package Check is
+      for Switches ("Ada") use ("--rule-file=test.lkql",
+                                "--rule-file=additional.lkql");
+   end Check;
+
+end Example;

@@ -1,0 +1,13 @@
+val rules = @{
+    Ada_2022_Outside_Of_Contracts,
+    Forbidden_Attributes:{Forbidden: ["Initialized"]},
+    Forbidden_Pragmas:{Forbidden: ["Validity_Checks","Assertion_Policy","Ignore_Pragma","Extensions_Allowed"]},
+    Metrics_Cyclomatic_Complexity:{N: 10},
+    SPARK_Procedures_Without_Globals,
+    Restrictions:{Arg: ["Max_Protected_Entries=>0",
+    		        "No_Floating_Point",
+			"No_Protected_Types",
+			"No_Specification_Of_Aspect=>Iterable",
+			"No_Use_Of_Entity=>Ada.Task_Identification.Current_Task",
+			"No_Use_Of_Entity=>Synchronous_Task_Control"]}
+}

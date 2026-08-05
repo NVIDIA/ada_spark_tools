@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:6:16: error: cannot resolve type reference with 3 components

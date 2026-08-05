@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {
+      "Runtime": {
+        "Ada": "runtime/potato_runtime/latest"
+      }
+    },
+    "packages": {
+      "Compiler": {
+        "kind": "Package",
+        "name": "Compiler",
+        "attributes": {
+          "Default_Switches": {
+            "Ada": [
+              "-gnatwa",
+              "-Wall",
+              "-gnatw.d",
+              "-gnatwe",
+              "-Werror",
+              "-gnatwh",
+              "-gnatw.h",
+              "-gnatw.j",
+              "-gnatw.k",
+              "-gnatwl",
+              "-gnatw.o",
+              "-gnatw_r",
+              "-gnatw.s",
+              "-gnatwt",
+              "-gnatw.w",
+              "-gnatw.X",
+              "-fcallgraph-info=su,da",
+              "-gnatyr",
+              "-nostdlib"
+            ]
+          }
+        }
+      }
+    }
+  }
+]

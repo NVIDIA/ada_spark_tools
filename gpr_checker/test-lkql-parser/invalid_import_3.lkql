@@ -1,0 +1,5 @@
+import base
+
+val rules = kitten.rules & @{
+  Goto_Statements
+}

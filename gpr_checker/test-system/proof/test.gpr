@@ -1,0 +1,13 @@
+project Test is
+
+  package Prove is
+
+     for Proof_Switches("Ada") use ("-U",
+                                    "--checks-as-errors=on",
+				    "--warnings=error");
+     for Proof_Switches("b.adb") use ("--counterexamples=on");
+     for Proof_Switches("a.adb") use ("--mode=silver");
+
+  end Prove;
+
+end Test;

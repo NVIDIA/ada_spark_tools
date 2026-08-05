@@ -1,0 +1,9 @@
+Exit code: NON COMPLIANT
+
+test.gpr:1:8: issue: project requires a Builder package [2.2.2]
+test.gpr:1:8: issue: project requires a Compiler package [2.2.3]
+test.gpr:1:8: issue: project requires a Prove package [4.2.4]
+test.gpr:1:8: issue: project requires a Check package [4.3.3]
+test.gpr:1:8: issue: zero gnatcheck rules are enabled [4.3.4]
+test.gpr:5:27: issue: Test runtime 'aarch64_linux_runtime' is not one of the allowed ones [2.2.2]
+test.gpr:3:7: issue: aarch64-linux-gnu is not one of the allowed targets [2.2.2]

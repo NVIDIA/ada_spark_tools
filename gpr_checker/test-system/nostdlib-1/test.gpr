@@ -1,0 +1,29 @@
+project Test is
+
+   for Runtime ("Ada") use "runtime/potato_runtime/latest";
+
+   package Compiler is
+      Base_Switches := (
+        "-gnatwa",
+        "-Wall",
+        "-gnatw.d",
+        "-gnatwe",
+        "-Werror",
+        "-gnatwh",
+        "-gnatw.h",
+        "-gnatw.j",
+        "-gnatw.k",
+        "-gnatwl",
+        "-gnatw.o",
+        "-gnatw_r",
+        "-gnatw.s",
+        "-gnatwt",
+        "-gnatw.w",
+        "-gnatw.X",
+        "-fcallgraph-info=su,da",
+        "-gnatyr"
+      );
+      for Default_Switches ("Ada") use Base_Switches & ("-nostdlib");
+   end Compiler;
+
+end Test;

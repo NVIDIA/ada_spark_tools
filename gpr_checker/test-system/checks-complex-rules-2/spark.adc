@@ -1,0 +1,6 @@
+pragma Profile (Jorvik);
+pragma Partition_Elaboration_Policy (Sequential);
+pragma Restrictions (No_Exception_Propagation);
+pragma Overflow_Mode (General    => Strict,
+                      Assertions => Eliminated);
+pragma Unevaluated_Use_Of_Old (Allow);

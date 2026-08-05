@@ -1,0 +1,10 @@
+project Test is
+
+   package Check is
+      for Default_Switches ("Ada") use (
+        "--show-rule",
+        "-U",
+        "--rule-file=/rules.lkql");
+  end Check;
+
+end Test;

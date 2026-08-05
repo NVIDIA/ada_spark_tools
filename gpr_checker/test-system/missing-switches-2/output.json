@@ -1,0 +1,39 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {
+      "Compiler": {
+        "kind": "Package",
+        "name": "Compiler",
+        "attributes": {
+          "Default_Switches": {
+            "C": [
+              "-O2"
+            ]
+          },
+          "Switches": {
+            "potato.adb": [
+              "-O3"
+            ],
+            "Ada": [
+              "-gnatyy"
+            ]
+          }
+        }
+      },
+      "Prove": {
+        "kind": "Package",
+        "name": "Prove",
+        "attributes": {
+          "Proof_Switches": {
+            "potato.adb": [
+              "--prover=cvc5,colibri"
+            ]
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,4 @@
+limited with "test.gpr";
+
+project Foo is
+end Foo;

@@ -1,0 +1,2 @@
+gnatcheck: cannot run compiler base rule "restrictions" only on ADA code (test.lkql)
+gnatcheck: cannot run compiler base rule "restrictions" only on SPARK code (test.lkql)

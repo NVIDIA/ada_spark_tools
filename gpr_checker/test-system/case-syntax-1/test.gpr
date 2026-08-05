@@ -1,0 +1,10 @@
+project Test is
+
+   Foo := external("FOO", "wibble");
+
+   case Foo is
+      when "foo" | "bar" =>
+         null;
+   end case;
+
+end Test;

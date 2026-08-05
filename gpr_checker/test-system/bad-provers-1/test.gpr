@@ -1,0 +1,9 @@
+project Test is
+   package Prove is
+      for Proof_Switches("Ada") use (
+        "--checks-as-errors=on",
+        "--warnings=error",
+        "--prover=cvc5,colibri"
+      );
+   end Prove;
+end Test;

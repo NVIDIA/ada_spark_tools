@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {
+      "Builder": {
+        "kind": "Package",
+        "name": "Builder",
+        "attributes": {}
+      }
+    }
+  }
+]

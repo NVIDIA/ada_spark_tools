@@ -1,0 +1,7 @@
+project Test is
+
+   Foo := "kitten.adb";
+
+   for Main use (Foo);
+
+end Test;

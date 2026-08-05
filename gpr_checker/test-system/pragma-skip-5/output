@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:5:2: error: expected package, got PRAGMA_SKIP_FILE

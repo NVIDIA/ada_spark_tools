@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:4:8: error: T is already defined at test.gpr:3:8

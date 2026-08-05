@@ -1,0 +1,7 @@
+project Test is
+
+   for Target use "aarch64-linux-gnu";
+
+   for Runtime ("Ada") use "/home/fschanda/work/3rdparty/adacore/runtime/aarch64_linux_runtime/latest";
+
+end Test;

@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "Project",
+    "name": "Base",
+    "attributes": {},
+    "packages": {}
+  },
+  {
+    "kind": "Project",
+    "name": "Dep",
+    "attributes": {},
+    "packages": {}
+  },
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {}
+  }
+]

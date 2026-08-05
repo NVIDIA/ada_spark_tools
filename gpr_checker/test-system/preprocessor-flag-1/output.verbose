@@ -1,0 +1,23 @@
+Exit code: NON COMPLIANT
+
+gnatcheck-rules-safety.lkql:1:4: issue: rule Goto_Statements does not configure only_unconditional = True in ada (Required for compliance with ISO 26262-6:2018, Table 6, row 1i 'No unconditional jumps') [4.3.4]
+=====================================
+= GPR Validator Report for test.gpr =
+=====================================
+1 file(s) checked:
+* test.gpr
+
+Checklist items fully checked:
+* 2.2.2 (gpr project correctly configured              ): VERIFIED
+* 2.2.3 (gpr compiler package correctly configured     ): VERIFIED
+* 2.2.4 (gpr prove package does not use banned switches): VERIFIED
+* 2.2.5 (gpr check package does not use banned switches): VERIFIED
+* 2.2.6 (no non-safety qualified switches used         ): VERIFIED
+* 2.3.1 (forward_progress is correctly configured      ): VERIFIED
+
+Checklist items partially checked:
+* 4.2.4 (all required gnatprove switches used          ): VERIFIED
+* 4.3.3 (all required gnatcheck switches are used      ): VERIFIED
+* 4.3.4 (all required gnatcheck rules are enabled      ): 1 finding
+
+Overall verdict: NON COMPLIANT

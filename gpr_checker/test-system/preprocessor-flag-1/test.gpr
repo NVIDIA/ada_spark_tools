@@ -1,0 +1,48 @@
+project Test is
+
+   for Target use "aarch64-nto-qnx";
+
+   for Runtime ("Ada") use "potato/runtime/aarch64_qnx_runtime/latest";
+
+   package Compiler is
+      for Default_Switches ("Ada") use (
+        "-gnatwa",
+        "-Wall",
+        "-gnatw.d",
+        "-gnatwe",
+        "-Werror",
+        "-gnatwh",
+        "-gnatw.h",
+        "-gnatw.j",
+        "-gnatw.k",
+        "-gnatwl",
+        "-gnatw.o",
+        "-gnatw_r",
+        "-gnatw.s",
+        "-gnatwt",
+        "-gnatw.w",
+        "-gnatw.X",
+        "-fcallgraph-info=su,da",
+        "-gnatyr",
+        "-gnateDPOTATO=0"
+      );
+   end Compiler;
+
+   package Builder is
+      for Global_Configuration_Pragmas use "global_config_pragmas_qnx.adc";
+   end Builder;
+
+   package Prove is
+      for Proof_Switches ("Ada") use (
+        "--checks-as-errors=on",
+        "--warnings=error",
+        "-U"
+      );
+   end Prove;
+
+   package Check is
+      for Default_Switches ("Ada") use ("-U",
+                                        "--rule-file=gnatcheck-rules-safety.lkql");
+   end Check;
+
+end Test;

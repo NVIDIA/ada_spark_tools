@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:2:0: error: malformed skip file pragma: missing explanation

@@ -1,0 +1,26 @@
++R Address_Specifications_For_Initialized_Objects
++R Bit_Records_Without_Layout_Definition
++R Constant_Overlays
++R Deep_Inheritance_Hierarchies:5
++R Direct_Calls_To_Primitives:Except_Constructors
++R Downward_View_Conversions
++R Duplicate_Branches
++R Enumeration_Ranges_In_CASE_Statements
++R EXIT_Statements_With_No_Loop_Name:Nested_Only
+-- +R Membership_For_Validity
++R Misnamed_Controlling_Parameters
++R Misplaced_Representation_Items
++R Non_Constant_Overlays
++R Non_Visible_Exceptions
++R No_Scalar_Storage_Order_Specified
++R Objects_Of_Anonymous_Types
++R Outbound_Protected_Assignments
++R Raising_Predefined_Exceptions
+-- +R Recursive_Subprograms
++R Same_Logic
++R Same_Operands
++R Same_Tests
++R Specific_Pre_Post
++R Unassigned_OUT_Parameters
+-- +R Use_Array_Slices
++R Variable_Scoping

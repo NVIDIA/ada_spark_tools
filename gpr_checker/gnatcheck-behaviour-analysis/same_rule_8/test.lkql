@@ -1,0 +1,15 @@
+val rules = @{
+    Restrictions: [{
+        arg: ["No_Use_Of_Entity => Synchronous_Task_Control",
+              "No_Use_Of_Entity => Ada.Task_Identification.Current_Task"],
+        instance_name: "rule 1"
+    }],
+    Restrictions: [{
+        arg: ["No_Protected_Types"],
+        instance_name: "rule 2"
+    }],
+    Restrictions: [{
+        arg: ["No_Floating_Point"],
+        instance_name: "rule 3"
+    }]
+}

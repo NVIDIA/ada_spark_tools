@@ -1,0 +1,25 @@
+project Test is
+
+   for Source_Dirs use (".");
+
+   Mode := external("MODE");
+
+   Wibble := "none";
+
+   package Compiler is
+
+      Wibble := "42" & "ff";
+
+   end Compiler;
+
+   case Mode is
+   when "potato" =>
+      for Source_Dirs use (".", ".");
+      Wibble := Wibble; -- Compiler.Wibble;
+   when others =>
+      null;
+   end case;
+
+   for Source_Dirs use (Wibble);  -- should be none
+
+end Test;

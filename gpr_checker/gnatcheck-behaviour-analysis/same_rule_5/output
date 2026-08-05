@@ -1,0 +1,2 @@
+gnatcheck: for option rule-file - --rule-file is forbidden in project file
+try "gnatcheck --help" for more information.

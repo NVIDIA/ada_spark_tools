@@ -1,0 +1,6 @@
+val rules = @{
+    Restrictions: [{
+        instance_name: "additional",
+        arg: ["No_Access_Subprograms"]
+    }]
+}

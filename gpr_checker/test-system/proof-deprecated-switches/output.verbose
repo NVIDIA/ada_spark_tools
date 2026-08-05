@@ -1,0 +1,6 @@
+Exit code: NON COMPLIANT
+
+test.gpr:1:8: issue: project requires a Builder package [2.2.2]
+test.gpr:1:8: issue: project requires a Compiler package [2.2.3]
+test.gpr:5:9: issue: this is deprecated, rewrite to use Proof_Switches [SPARK UG]
+test.gpr:5:9: error: aborting gpr analysis since we don't understand the impact of attribute Prove.Switches

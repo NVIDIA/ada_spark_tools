@@ -1,0 +1,7 @@
+--  This is an example
+--  gpr_checker: skip things: potato reason
+--  More comments
+
+project Test is
+
+end Test;

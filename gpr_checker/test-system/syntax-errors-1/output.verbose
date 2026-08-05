@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:1:8: error: expected IDENTIFIER, got KEYWORD

@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:2:4: error: end token mismatch, should be Test

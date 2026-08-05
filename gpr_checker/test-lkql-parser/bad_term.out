@@ -1,0 +1,1 @@
+bad_term.lkql:2:25: error: expected object, list, tuple or string; found IDENTIFIER instead

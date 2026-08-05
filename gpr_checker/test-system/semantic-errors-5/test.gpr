@@ -1,0 +1,5 @@
+project Test is
+
+   type T is ("foo", "bar", "foo");
+
+end Test;

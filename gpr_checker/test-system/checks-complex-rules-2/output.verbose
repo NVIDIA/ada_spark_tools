@@ -1,0 +1,32 @@
+Exit code: NON COMPLIANT
+
+test.gpr:4:19: info: using default value '' for external GPR_TOOL
+global_config_pragmas_qnx.adc: warning: could not find correct definition for user aspect Forward_Progress [2.3.1]
+gnatcheck-rules.lkql:10:19: error: value for forbidden is not a List
+gnatcheck-rules.lkql:1:4: issue: rule Forbidden_Pragmas does not contain Extensions_Allowed in attribute forbidden in spark+ada (GNAT language extensions are outside certification scope) [4.3.4]
+gnatcheck-rules.lkql:10:19: error: value for forbidden is not a List
+gnatcheck-rules.lkql:1:4: issue: rule Forbidden_Pragmas does not contain Validity_Checks in attribute forbidden in spark+ada (Required because pragma Validity_Checks is not safety-certified) [4.3.4]
+gnatcheck-rules.lkql:10:19: error: value for forbidden is not a List
+gnatcheck-rules.lkql:1:4: issue: rule Forbidden_Pragmas does not contain Ignore_Pragma in attribute forbidden in spark+ada (Required because pragma Ignore_Pragma can  cause SPARK to be silently disabled) [4.3.4]
+gnatcheck-rules.lkql:28:22: error: value for only_unconditional is not a Boolean
+gnatcheck-rules.lkql:1:4: issue: rule Goto_Statements does not configure only_unconditional = True in ada (Required for compliance with ISO 26262-6:2018, Table 6, row 1i 'No unconditional jumps') [4.3.4]
+=====================================
+= GPR Validator Report for test.gpr =
+=====================================
+1 file(s) checked:
+* test.gpr
+
+Checklist items fully checked:
+* 2.2.2 (gpr project correctly configured              ): VERIFIED
+* 2.2.3 (gpr compiler package correctly configured     ): VERIFIED
+* 2.2.4 (gpr prove package does not use banned switches): VERIFIED
+* 2.2.5 (gpr check package does not use banned switches): VERIFIED
+* 2.2.6 (no non-safety qualified switches used         ): VERIFIED
+* 2.3.1 (forward_progress is correctly configured      ): VERIFIED
+
+Checklist items partially checked:
+* 4.2.4 (all required gnatprove switches used          ): VERIFIED
+* 4.3.3 (all required gnatcheck switches are used      ): VERIFIED
+* 4.3.4 (all required gnatcheck rules are enabled      ): 4 findings
+
+Overall verdict: NON COMPLIANT

@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {
+      "Compiler": {
+        "kind": "Package",
+        "name": "Compiler",
+        "attributes": {}
+      },
+      "Prove": {
+        "kind": "Package",
+        "name": "Prove",
+        "attributes": {
+          "Proof_Switches": {
+            "Ada": [
+              "-U"
+            ]
+          }
+        }
+      },
+      "Check": {
+        "kind": "Package",
+        "name": "Check",
+        "attributes": {}
+      }
+    }
+  }
+]

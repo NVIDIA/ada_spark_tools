@@ -1,0 +1,13 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {
+      "Target": "aarch64-linux-gnu",
+      "Runtime": {
+        "Ada": "/home/fschanda/work/3rdparty/adacore/runtime/aarch64_linux_runtime/latest"
+      }
+    },
+    "packages": {}
+  }
+]

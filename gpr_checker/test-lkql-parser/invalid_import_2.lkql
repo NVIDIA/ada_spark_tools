@@ -1,0 +1,5 @@
+import potato
+
+val rules = base.rules & @{
+  Goto_Statements
+}

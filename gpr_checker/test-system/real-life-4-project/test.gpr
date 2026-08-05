@@ -1,0 +1,178 @@
+-- Starting project file
+project Test is
+
+	Mode := External ("GPR_TOOL", "");
+
+	-- Cross-Compilation Target
+	for Target use "aarch64-nto-qnx";
+
+	-- Ada Runtime
+	for Runtime ("Ada") use "runtime/aarch64_qnx_runtime/latest";
+
+	-- Toolchain Name
+	for Toolchain_Name ("C") use "QNX_QCC_VER_12_2_0";
+	for Toolchain_Name ("C++") use "QNX_QCC_VER_12_2_0";
+
+	-- Supported Languages
+	for Languages use ("ada", "c");
+
+	-- Program Entry Point
+	for Main use ("potato.adb");
+
+	-- Global Builder Configurations
+	package Builder is
+		-- Configuration pragmas file
+		for Global_Configuration_Pragmas use "global_config_pragmas_qnx.adc";
+		-- Name of executable
+		for Executable ("potato.adb") use "potato";
+		-- Common flags for gprbuild
+		for Switches (others) use ("-we", "-s", "-q");
+	end Builder;
+
+	-- Binder Flags
+	package Binder is
+		for Switches ("potato.adb") use ("-shared");
+		for Bindfile_Option_Substitution ("-shared") use ("");
+	end Binder;
+
+	-- Compiler Flags
+	package Compiler is
+		Common_Switches := (
+                        "-I/POTATO/blah",
+                        "-fstack-protector-strong",
+                        "-march=armv8.2-a",
+                        "-O2",
+                        "-fno-aggressive-loop-optimizations",
+                        "-fno-omit-frame-pointer",
+                        "-Wredundant-decls",
+                        "-fno-builtin",
+                        "-fno-builtin-libm",
+                        "-mbranch-protection=pac-ret+leaf",
+                        "-Werror",
+                        "-Wall",
+                        "-Wformat",
+                        "-Wchar-subscripts",
+                        "-Wparentheses",
+                        "-Wtrigraphs",
+                        "-Wpointer-arith",
+                        "-Wmissing-declarations",
+                        "-Wmain",
+                        "-Wreturn-type",
+                        "-Wmultichar",
+                        "-Wunused",
+                        "-Wmissing-braces",
+                        "-Wstrict-aliasing",
+                        "-Wsign-compare",
+                        "-Waddress",
+                        "-Wstringop-truncation",
+                        "-Wif-not-aligned",
+                        "-Wrestrict",
+                        "-Wmissing-attributes",
+                        "-Wpacked-not-aligned",
+                        "-fPIC",
+                        "-DPIC",
+                        "-Wno-error=sign-compare",
+                        "-Wno-error=array-bounds",
+                        "-Wno-error=redundant-decls",
+                        "-Wno-error=enum-compare",
+                        "-Wno-error=strict-aliasing",
+                        "-Wno-error=unused-but-set-variable",
+                        "-Wno-error=stringop-truncation",
+                        "-Wno-error=stringop-overflow",
+                        "-Wno-error=format-truncation",
+                        "-Wno-error=maybe-uninitialized",
+                        "-Wno-error=duplicate-decl-specifier",
+                        "-Wno-error=format-overflow",
+                        "-Wno-error=unused-const-variable",
+                        "-Wno-error=parentheses",
+                        "-Wno-error=incompatible-pointer-types",
+                        "-Wno-error=packed-not-aligned",
+                        "-Wno-error=missing-braces",
+                        "-Wno-error=missing-prototypes",
+                        "-Wno-error=deprecated-declarations",
+                        "-Wno-error=format",
+                        "-Wno-error=aligned-new=",
+                        "-Wno-error=restrict",
+                        "-Wno-error=address",
+                        "-Wno-error=address-of-packed-member",
+                        "-Wno-error=cpp",
+                        "-Wno-error=format-extra-args",
+                        "-Wno-error=narrowing",
+                        "-Wno-error=pessimizing-move",
+                        "-Wno-error=range-loop-construct",
+                        "-Wno-error=return-local-addr",
+                        "-Wno-error=unused-variable",
+                        "-DNDEBUG",
+                        "-g",
+                        "-D_FORTIFY_SOURCE=2",
+                        "-DCOMPONENT_NAME=potato");
+		C_only_Switches := ("-Wimplicit",
+                        "-Wmissing-prototypes",
+                        "-Wpointer-sign",
+                        "-Wstrict-prototypes",
+                        "-Wno-error=implicit-function-declaration");
+		Cpp_only_Switches := ("-std=c++17",
+                        "-nostdinc",
+                        "-nostdinc++",
+                        "-D_NO_EX",
+                        "-Wno-error=class-memaccess",
+                        "-Wno-error=catch-value");
+		Ada_Switches := ("-Wall",
+                        "-gnat2022",
+                        "-gnatwa",
+                        "-gnatw.w",
+                        "-gnatw.X",
+                        "-gnatw.d",
+                        "-gnatw.h",
+                        "-gnatw.k",
+                        "-gnatwl",
+                        "-gnatw.o",
+                        "-gnatw_r",
+                        "-gnatw.s",
+                        "-gnatwt",
+                        "-Werror",
+                        "-gnatwe",
+                        "-gnatw.j",
+                        "-gnatwh",
+                        "-fcallgraph-info=su,da",
+                        "-gnatyr",
+                        "-fstack-protector-strong",
+                        "-Os",
+                        "-gnatp",
+                        "-gnatyy",
+                        "-gnatyM95",
+                        "-fPIC");
+		for Default_Switches ("C") use Common_Switches & C_only_Switches;
+		for Default_Switches ("C++") use Cpp_only_Switches & Common_Switches;
+		for Default_Switches ("Ada") use Ada_Switches;
+		for Local_Configuration_Pragmas use "spark.adc";
+	end Compiler;
+
+	-- Analyzer Flags
+	package Analyzer is
+		for Switches ("inspector") use ("-gnatd.I");
+	end Analyzer;
+
+	-- Check Flags
+	package Check is
+		for Default_Switches ("Ada") use ("--show-rule");
+                for Rule_File use "gnatcheck-rules.lkql";
+	end Check;
+
+	-- Prove Flags
+	package Prove is
+		for Proof_Switches ("Ada") use ("-j0",
+                        "--info",
+                        "--mode=all",
+                        "--prover=altergo,cvc5,z3",
+                        "--warnings=error",
+                        "--checks-as-errors=on",
+                        "-U",
+                        "--timeout=1200",
+                        "--memlimit=0",
+                        "--quiet",
+                        "--timeout=15",
+                        "--level=1");
+	end Prove;
+
+end Test;

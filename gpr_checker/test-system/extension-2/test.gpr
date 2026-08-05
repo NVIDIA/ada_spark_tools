@@ -1,0 +1,5 @@
+with "base.gpr";
+
+project Test extends all Base is
+
+end Test;

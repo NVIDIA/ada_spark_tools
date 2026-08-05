@@ -1,0 +1,8 @@
++R Ada_2022_In_Ghost_Code
++R Forbidden_Attributes:Initialized
++R Forbidden_Pragmas:Validity_Checks,Ignore_Pragma
+-- +R Forbidden_Pragmas:Assertion_Policy
++R Goto_Statements:Only_Unconditional
+-- +R Metrics_Cyclomatic_Complexity:10
++R Restrictions:Max_Protected_Entries=>0,No_Floating_Point,No_Protected_Types,No_Specification_Of_Aspect=>Iterable,No_Use_Of_Entity=>Ada.Task_Identification.Current_Task,No_Use_Of_Entity=>Synchronous_Task_Control
+-- +R SPARK_Procedures_Without_Globals

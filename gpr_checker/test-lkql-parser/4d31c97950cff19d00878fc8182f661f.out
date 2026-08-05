@@ -1,0 +1,14 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (identifier_casing)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (exclude)
+                     String_Literal (exclude.txt)
+                  Object_Member (type)
+                     String_Literal (Mixed)
+                  Object_Member (constant)
+                     String_Literal (UPPER)

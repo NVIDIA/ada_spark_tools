@@ -1,0 +1,10 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (duplicate_branches)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (min_stmt)
+                     Integer_Literal (2)

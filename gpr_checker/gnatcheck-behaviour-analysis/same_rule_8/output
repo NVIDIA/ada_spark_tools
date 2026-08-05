@@ -1,0 +1,4 @@
+gnatcheck: test.lkql:1:13: Multiple keys with the same name in the object: "restrictions"
+gnatcheck: Errors during analysis (test.lkql)
+gnatcheck: No rule to check specified
+try "gnatcheck --help" for more information.

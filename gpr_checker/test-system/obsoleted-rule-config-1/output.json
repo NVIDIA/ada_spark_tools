@@ -1,0 +1,24 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {
+      "Check": {
+        "kind": "Package",
+        "name": "Check",
+        "attributes": {
+          "Default_Switches": {
+            "Ada": [
+              "--show-rule",
+              "--check-redefinition",
+              "-U",
+              "-rules",
+              "-from=/rules.txt"
+            ]
+          }
+        }
+      }
+    }
+  }
+]

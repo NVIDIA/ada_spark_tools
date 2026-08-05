@@ -1,0 +1,5 @@
+with "base.gpr";
+with "dep.gpr";
+
+project Test is
+end Test;

@@ -1,0 +1,14 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (identifier_suffixes)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (access_suffix)
+                     String_Literal (_PTR(_PTR))
+                  Object_Member (type_suffix)
+                     String_Literal (_T)
+                  Object_Member (constant_suffix)
+                     String_Literal (_C)

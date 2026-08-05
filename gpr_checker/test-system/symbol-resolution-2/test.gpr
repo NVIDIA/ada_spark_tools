@@ -1,0 +1,8 @@
+with "base.gpr";
+
+project Test is
+
+   Foo : Base.T := "blah";
+   Bar : Bast.X.T := "wibble";
+
+end Test;

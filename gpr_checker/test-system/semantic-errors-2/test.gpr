@@ -1,0 +1,6 @@
+project Test is
+
+   type T is ("kitten");
+   type T is ("kitten");
+
+end Test;

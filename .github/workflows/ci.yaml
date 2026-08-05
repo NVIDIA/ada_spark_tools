@@ -1,0 +1,43 @@
+name: GPR Checker CI
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: PyLint
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r gpr_checker/requirements_lint.txt
+      - name: Running PyCodeStyle & PyLint
+        run: |
+          make -C gpr_checker lint
+  test:
+    name: Tests
+    strategy:
+      matrix:
+        os: [ubuntu-22.04, ubuntu-24.04]
+        py-version: ["3.11", "3.12", "3.13", "3.14"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.py-version }}
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r gpr_checker/requirements_test.txt
+      - name: Running tests
+        run: |
+          make -C gpr_checker test
+      - name: Check test status
+        run: |
+          gpr_checker/util/check_local_modifications.sh

@@ -1,0 +1,8 @@
+project Example is
+
+   for Source_Dirs use ("../common");
+
+   package Check is
+   end Check;
+
+end Example;

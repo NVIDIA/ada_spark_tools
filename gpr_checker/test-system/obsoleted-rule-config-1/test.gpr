@@ -1,0 +1,12 @@
+project Test is
+
+   package Check is
+      for Default_Switches ("Ada") use (
+        "--show-rule",
+        "--check-redefinition",
+        "-U",
+        "-rules",
+        "-from=/rules.txt");
+  end Check;
+
+end Test;

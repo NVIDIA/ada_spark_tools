@@ -1,0 +1,15 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (parameters_out_of_order)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (order)
+                     List_Literal
+                        String_Literal (in)
+                        String_Literal (defaulted_in)
+                        String_Literal (in_out)
+                        String_Literal (out)
+                        String_Literal (access)

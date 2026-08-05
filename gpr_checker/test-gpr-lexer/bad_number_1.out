@@ -1,0 +1,2 @@
+ADC_Token(KEYWORD, 'pragma')
+bad_number_1.adc:1:10: error: two consecutive underscores are not permitted

@@ -1,0 +1,7 @@
+val rules = @{
+    Forbidden_Pragmas: [ {Forbidden : ["Validity_Checks"], instance_name: "foo"} ]
+}
+
+val spark_rules = @{
+    Forbidden_Pragmas: [ {Forbidden : ["Ignore_Pragma"], instance_name: "bar"} ]
+}

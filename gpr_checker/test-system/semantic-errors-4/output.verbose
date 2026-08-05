@@ -1,0 +1,4 @@
+Exit code: NON COMPLIANT
+
+test.gpr:5:23: info: using default value 'foo' for external FOO
+test.gpr:12:6: error: duplicate others choice

@@ -1,0 +1,5 @@
+val spark_rules = @{
+    forbidden_attributes: {
+        forbidden: ["initialized"]
+    }
+}

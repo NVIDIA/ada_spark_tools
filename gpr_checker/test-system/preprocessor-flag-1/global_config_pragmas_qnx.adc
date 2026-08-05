@@ -1,0 +1,4 @@
+pragma User_Aspect_Definition
+  (Forward_Progress,
+   Local_Restrictions (No_Secondary_Stack, No_Heap_Allocations),
+   Always_Terminates);

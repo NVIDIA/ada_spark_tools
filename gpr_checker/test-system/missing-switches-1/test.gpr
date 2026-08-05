@@ -1,0 +1,11 @@
+project Test is
+
+   package Compiler is
+      for Default_Switches ("C") use ("-O2");
+      for Switches ("potato.adb") use ("-O3");
+   end Compiler;
+
+   package Prove is
+   end Prove;
+
+end Test;

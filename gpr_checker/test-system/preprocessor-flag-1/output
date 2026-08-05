@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+gnatcheck-rules-safety.lkql:1:4: issue: rule Goto_Statements does not configure only_unconditional = True in ada (Required for compliance with ISO 26262-6:2018, Table 6, row 1i 'No unconditional jumps') [4.3.4]

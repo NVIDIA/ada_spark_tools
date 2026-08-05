@@ -1,0 +1,37 @@
+Exit code: NON COMPLIANT
+
+base.gpr:1:8: issue: project requires a Builder package [2.2.2]
+base.gpr:5:11: issue: Cannot find Default_Switches("Ada") [2.2.3]
+base.gpr:2:11: issue: The Proof_Switches attribute is required [4.2.4]
+base.gpr:1:8: issue: project requires a Check package [4.3.3]
+base.gpr:1:8: issue: zero gnatcheck rules are enabled [4.3.4]
+base.gpr:1:8: issue: Base does not define a Runtime [2.2.2]
+base.gpr:1:8: issue: Base does not define a Target [2.2.2]
+test.gpr:3:8: issue: project requires a Builder package [2.2.2]
+test.gpr:7:11: issue: Cannot find Default_Switches("Ada") [2.2.3]
+test.gpr:5:11: issue: The Proof_Switches attribute is required [4.2.4]
+test.gpr:3:8: issue: project requires a Check package [4.3.3]
+test.gpr:3:8: issue: zero gnatcheck rules are enabled [4.3.4]
+test.gpr:3:8: issue: Test does not define a Runtime [2.2.2]
+test.gpr:3:8: issue: Test does not define a Target [2.2.2]
+=====================================
+= GPR Validator Report for test.gpr =
+=====================================
+2 file(s) checked:
+* base.gpr
+* test.gpr
+
+Checklist items fully checked:
+* 2.2.2 (gpr project correctly configured              ): 6 findings
+* 2.2.3 (gpr compiler package correctly configured     ): 2 findings
+* 2.2.4 (gpr prove package does not use banned switches): VERIFIED
+* 2.2.5 (gpr check package does not use banned switches): VERIFIED
+* 2.2.6 (no non-safety qualified switches used         ): VERIFIED
+* 2.3.1 (forward_progress is correctly configured      ): VERIFIED
+
+Checklist items partially checked:
+* 4.2.4 (all required gnatprove switches used          ): 2 findings
+* 4.3.3 (all required gnatcheck switches are used      ): 2 findings
+* 4.3.4 (all required gnatcheck rules are enabled      ): 2 findings
+
+Overall verdict: NON COMPLIANT

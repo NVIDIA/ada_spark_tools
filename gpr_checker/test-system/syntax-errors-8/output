@@ -1,0 +1,3 @@
+Exit code: NON COMPLIANT
+
+test.gpr:1:10: error: unknown project qualifier foo

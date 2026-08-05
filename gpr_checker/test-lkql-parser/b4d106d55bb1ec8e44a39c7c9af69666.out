@@ -1,0 +1,10 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (warnings)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (arg)
+                     String_Literal (u)

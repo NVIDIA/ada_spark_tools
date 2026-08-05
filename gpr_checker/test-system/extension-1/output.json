@@ -1,0 +1,27 @@
+[
+  {
+    "kind": "Project",
+    "name": "Base",
+    "attributes": {},
+    "packages": {
+      "Prove": {
+        "kind": "Package",
+        "name": "Prove",
+        "attributes": {
+          "Proof_Switches": {
+            "Ada": [
+              "--checks-as-errors=on",
+              "--warnings=error"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {}
+  }
+]

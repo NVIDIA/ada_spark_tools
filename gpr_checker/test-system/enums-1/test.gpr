@@ -1,0 +1,7 @@
+project Test is
+
+   type T is ("foo", "bar");
+
+   Foo : T := "kitten";
+
+end Test;

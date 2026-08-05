@@ -1,0 +1,2 @@
+ADC_Token(KEYWORD, 'pragma')
+bad_string.adc:1:7: error: broken string

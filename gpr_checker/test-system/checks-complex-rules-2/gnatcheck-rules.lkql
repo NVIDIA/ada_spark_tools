@@ -1,0 +1,36 @@
+val rules = @{
+    address_specifications_for_initialized_objects,
+    constant_overlays,
+    direct_calls_to_primitives: [{except_constructors: true}],
+    downward_view_conversions,
+    duplicate_branches,
+    exit_statements_with_no_loop_name: [{nested_only: true}],
+    forbidden_pragmas: [
+       {instance_name : "foo"},
+       {forbidden: true,
+        instance_name : "bar"},
+       {forbidden: [123],
+        instance_name : "baz"}
+    ],
+    misnamed_controlling_parameters,
+    misplaced_representation_items,
+    non_constant_overlays,
+    non_visible_exceptions,
+    objects_of_anonymous_types,
+    raising_predefined_exceptions,
+    same_logic,
+    same_operands,
+    same_tests,
+    specific_pre_post,
+    variable_scoping,
+    goto_statements : [
+        {},
+	{only_unconditional: "potato"}
+    ]
+}
+
+val ada_rules = @{
+    goto_statements,
+    outbound_protected_assignments,
+    unassigned_out_parameters
+}

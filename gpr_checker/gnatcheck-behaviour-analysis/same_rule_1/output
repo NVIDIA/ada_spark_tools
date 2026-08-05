@@ -1,0 +1,3 @@
+gnatcheck: Multiple instances with the same name: restrictions (test.lkql)
+gnatcheck: No rule to check specified
+try "gnatcheck --help" for more information.

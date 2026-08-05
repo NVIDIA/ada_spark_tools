@@ -1,0 +1,6 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (style_checks)
+            String_Literal (xz)

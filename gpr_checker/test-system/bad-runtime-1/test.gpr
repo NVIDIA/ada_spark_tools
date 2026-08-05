@@ -1,0 +1,5 @@
+project Test is
+
+   for Runtime ("C") use ("potato_runtime");
+
+end Test;

@@ -1,0 +1,75 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {
+      "Target": "aarch64-nto-qnx",
+      "Runtime": {
+        "Ada": "potato/runtime/aarch64_qnx_runtime/latest"
+      }
+    },
+    "packages": {
+      "Compiler": {
+        "kind": "Package",
+        "name": "Compiler",
+        "attributes": {
+          "Default_Switches": {
+            "Ada": [
+              "-gnatwa",
+              "-Wall",
+              "-gnatw.d",
+              "-gnatwe",
+              "-Werror",
+              "-gnatwh",
+              "-gnatw.h",
+              "-gnatw.j",
+              "-gnatw.k",
+              "-gnatwl",
+              "-gnatw.o",
+              "-gnatw_r",
+              "-gnatw.s",
+              "-gnatwt",
+              "-gnatw.w",
+              "-gnatw.X",
+              "-fcallgraph-info=su,da",
+              "-gnatyr",
+              "-gnateDPOTATO=0"
+            ]
+          }
+        }
+      },
+      "Builder": {
+        "kind": "Package",
+        "name": "Builder",
+        "attributes": {
+          "Global_Configuration_Pragmas": "global_config_pragmas_qnx.adc"
+        }
+      },
+      "Prove": {
+        "kind": "Package",
+        "name": "Prove",
+        "attributes": {
+          "Proof_Switches": {
+            "Ada": [
+              "--checks-as-errors=on",
+              "--warnings=error",
+              "-U"
+            ]
+          }
+        }
+      },
+      "Check": {
+        "kind": "Package",
+        "name": "Check",
+        "attributes": {
+          "Default_Switches": {
+            "Ada": [
+              "-U",
+              "--rule-file=gnatcheck-rules-safety.lkql"
+            ]
+          }
+        }
+      }
+    }
+  }
+]

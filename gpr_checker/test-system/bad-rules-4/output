@@ -1,0 +1,10 @@
+Exit code: NON COMPLIANT
+
+test.gpr:1:8: issue: project requires a Builder package [2.2.2]
+test.gpr:1:8: issue: project requires a Compiler package [2.2.3]
+test.gpr:1:8: issue: project requires a Prove package [4.2.4]
+rules.lkql:1:4: issue: rule Forbidden_Pragmas does not contain Extensions_Allowed in attribute forbidden in spark+ada (GNAT language extensions are outside certification scope) [4.3.4]
+rules.lkql:1:4: issue: rule Forbidden_Pragmas does not contain Validity_Checks in attribute forbidden in spark+ada (Required because pragma Validity_Checks is not safety-certified) [4.3.4]
+rules.lkql:1:4: issue: rule Forbidden_Pragmas does not contain Ignore_Pragma in attribute forbidden in spark+ada (Required because pragma Ignore_Pragma can  cause SPARK to be silently disabled) [4.3.4]
+test.gpr:1:8: issue: Test does not define a Runtime [2.2.2]
+test.gpr:1:8: issue: Test does not define a Target [2.2.2]

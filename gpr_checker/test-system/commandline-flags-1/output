@@ -1,0 +1,11 @@
+Exit code: NON COMPLIANT
+
+test.gpr:1:8: issue: project requires a Builder package [2.2.2]
+test.gpr:3:11: issue: Cannot find Default_Switches("Ada") [2.2.3]
+test.gpr:7:37: issue: required GNATProve switch --checks-as-errors=on not present (In this process, GNATprove check messages are reviewed via diagnostic justifications, not via gnatprove output. This switch ensures that any check message will result in gnatprove not exiting without an error code.) [2.2.4]
+test.gpr:7:37: issue: required GNATProve switch --warnings=error not present (Some GNATprove warnings are used to identify potential violations of GNATprove assumptions, each of which requires manual review to ensure the violations will not lead to GNATprove false negatives. This switch ensures that any such potential violation will result in gnatprove not exiting without an error code.) [2.2.4]
+gnatprove commadline: issue: Non-qualified GNATProve switch --foo-bar=baz must not be present [2.2.6]
+gnatprove commadline: issue: Non-qualified GNATProve switch --wibble must not be present [2.2.6]
+test.gpr:10:11: issue: Cannot find Default_Switches("Ada") [2.2.5]
+test.gpr:1:8: issue: Test does not define a Runtime [2.2.2]
+test.gpr:1:8: issue: Test does not define a Target [2.2.2]

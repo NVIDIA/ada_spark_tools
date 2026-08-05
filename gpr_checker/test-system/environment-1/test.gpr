@@ -1,0 +1,10 @@
+project Test is
+
+   Foo := "";
+
+   case Foo is
+      when others =>
+         Foo := "bar";
+   end case;
+
+end Test;

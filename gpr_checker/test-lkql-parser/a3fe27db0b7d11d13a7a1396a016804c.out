@@ -1,0 +1,10 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (maximum_out_parameters)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (n)
+                     String_Literal (Hello)

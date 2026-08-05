@@ -1,0 +1,56 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (address_specifications_for_initialized_objects)
+         Object_Member (constant_overlays)
+         Object_Member (direct_calls_to_primitives)
+            List_Literal
+               Object_Literal
+                  Default_Allowed: False
+                  Symbol_Table
+                     Object_Member (except_constructors)
+                        Boolean_Literal (True)
+         Object_Member (downward_view_conversions)
+         Object_Member (duplicate_branches)
+         Object_Member (exit_statements_with_no_loop_name)
+            List_Literal
+               Object_Literal
+                  Default_Allowed: False
+                  Symbol_Table
+                     Object_Member (nested_only)
+                        Boolean_Literal (True)
+         Object_Member (forbidden_pragmas)
+            List_Literal
+               Object_Literal
+                  Default_Allowed: False
+                  Symbol_Table
+                     Object_Member (forbidden)
+                        List_Literal
+                           String_Literal (Validity_Checks)
+                           String_Literal (Ignore_Pragma)
+                           String_Literal (Extensions_Allowed)
+         Object_Member (misnamed_controlling_parameters)
+         Object_Member (misplaced_representation_items)
+         Object_Member (non_constant_overlays)
+         Object_Member (non_visible_exceptions)
+         Object_Member (objects_of_anonymous_types)
+         Object_Member (raising_predefined_exceptions)
+         Object_Member (same_logic)
+         Object_Member (same_operands)
+         Object_Member (same_tests)
+         Object_Member (specific_pre_post)
+         Object_Member (variable_scoping)
+Value_Declaration (ada_rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (goto_statements)
+            List_Literal
+               Object_Literal
+                  Default_Allowed: False
+                  Symbol_Table
+                     Object_Member (only_unconditional)
+                        Boolean_Literal (True)
+         Object_Member (outbound_protected_assignments)
+         Object_Member (unassigned_out_parameters)

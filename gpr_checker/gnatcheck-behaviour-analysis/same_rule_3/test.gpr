@@ -1,0 +1,10 @@
+project Example is
+
+   for Source_Dirs use ("../common");
+
+   package Check is
+      for Rule_File use "test.lkql";
+      for Switches ("Ada") use ("-rules", "+R:cmdline:Restrictions:No_Access_Subprograms");
+   end Check;
+
+end Example;

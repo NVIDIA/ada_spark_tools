@@ -1,0 +1,40 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (ada_2022_in_ghost_code)
+         Object_Member (forbidden_attributes)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (forbidden)
+                     List_Literal
+                        String_Literal (initialized)
+         Object_Member (metrics_cyclomatic_complexity)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (n)
+                     Integer_Literal (10)
+         Object_Member (spark_procedures_without_globals)
+         Object_Member (forbidden_pragmas)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (forbidden)
+                     List_Literal
+                        String_Literal (validity_checks)
+                        String_Literal (assertion_policy)
+                        String_Literal (ignore_pragma)
+         Object_Member (restrictions)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (arg)
+                     List_Literal
+                        String_Literal (No_Floating_Point)
+                        String_Literal (No_Protected_Types)
+                        String_Literal (No_Specification_Of_Aspect => Iterable)
+                        String_Literal (Max_Protected_Entries => 0)
+                        String_Literal (No_Use_Of_Entity => Synchronous_Task_Control)
+                        String_Literal (No_Use_Of_Entity => Ada.Task_Identification.Current_Task)

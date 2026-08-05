@@ -1,0 +1,10 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (membership_tests)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (float_types_only)
+                     String_Literal (true)

@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {},
+    "packages": {
+      "Check": {
+        "kind": "Package",
+        "name": "Check",
+        "attributes": {
+          "Default_Switches": {
+            "Ada": [
+              "--show-rule",
+              "-U",
+              "--rule-file=/rules.lkql"
+            ]
+          }
+        }
+      }
+    }
+  }
+]

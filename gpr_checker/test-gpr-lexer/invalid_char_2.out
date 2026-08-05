@@ -1,0 +1,3 @@
+ADC_Token(KEYWORD, 'pragma')
+ADC_Token(IDENTIFIER, 'foo')
+invalid_char_2.adc:1:10: error: unexpected character: '?'

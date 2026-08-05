@@ -1,0 +1,10 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (goto_statements)
+            Object_Literal
+               Default_Allowed: False
+               Symbol_Table
+                  Object_Member (only_unconditional)
+                     Integer_Literal (42)

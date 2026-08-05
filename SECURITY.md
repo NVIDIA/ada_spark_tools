@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION &
+                        AFFILIATES. All rights reserved.
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
 ## Security
 
 NVIDIA is dedicated to the security and trust of our software products and services, including all source code repositories managed through our organization.

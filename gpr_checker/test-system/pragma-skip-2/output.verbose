@@ -1,0 +1,24 @@
+Exit code: COMPLIANT
+
+test.gpr:3:0: warning: duplicate skip file pragma
+test.gpr:6:8: info: skipping validation of Test: wibble reason
+=====================================
+= GPR Validator Report for test.gpr =
+=====================================
+1 file(s) checked:
+* test.gpr
+
+Checklist items fully checked:
+* 2.2.2 (gpr project correctly configured              ): VERIFIED
+* 2.2.3 (gpr compiler package correctly configured     ): VERIFIED
+* 2.2.4 (gpr prove package does not use banned switches): VERIFIED
+* 2.2.5 (gpr check package does not use banned switches): VERIFIED
+* 2.2.6 (no non-safety qualified switches used         ): VERIFIED
+* 2.3.1 (forward_progress is correctly configured      ): VERIFIED
+
+Checklist items partially checked:
+* 4.2.4 (all required gnatprove switches used          ): VERIFIED
+* 4.3.3 (all required gnatcheck switches are used      ): VERIFIED
+* 4.3.4 (all required gnatcheck rules are enabled      ): VERIFIED
+
+Overall verdict: COMPLIANT

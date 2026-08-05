@@ -1,0 +1,8 @@
+Value_Declaration (rules)
+   Object_Literal
+      Default_Allowed: True
+      Symbol_Table
+         Object_Member (lvalue)
+            List_Literal
+         Object_Member (tvalue)
+            Tuple_Literal
