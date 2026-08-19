@@ -1,0 +1,12 @@
+combined_switches
+runtime
+target
+required_compiler_switches
+banned_compiler_switches
+required_gnatprove_switches
+banned_gnatprove_switches
+required_gnatcheck_switches
+banned_gnatcheck_switches
+required_gnatcheck_rules
+required_pragmas
+banned_gpr_features

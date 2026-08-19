@@ -1,0 +1,5 @@
+project Test is
+
+   for Target use "potato64";
+
+end Test;

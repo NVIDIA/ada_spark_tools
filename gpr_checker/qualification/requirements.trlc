@@ -1,0 +1,166 @@
+/*****************************************************************************
+ * GPR Checker
+ * SPDX-FileCopyrightText: Copyright (C) 2026 NVIDIA CORPORATION &
+ *                         AFFILIATES. All rights reserved.
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ *
+ * This file is part of the GPR Checker.
+ *
+ * GPR Checker is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * GPR Checker is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with GPR Checker. If not, see <https://www.gnu.org/licenses/>.
+ ****************************************************************************/
+
+package Requirements
+
+System_Description GPR_Checker {
+  description = """
+     The GPR Checker reads GPR files (and some referenced
+     configuration such as global pragma files and LKQL
+     rule sets) and validates them against a set of required
+     and allowed switches, rules, and pragmas.
+  """
+}
+
+Requirement exit_code {
+  description = """
+     Any violation must result in a non-zero exit code. A
+     zero exit code must only be returned if and only if the
+     checked GPR file, along with switches that would be
+     specified on the command-line, conform to the allowed
+     set.
+  """
+}
+
+Requirement combined_switches {
+  description = """
+     Enforcement of rules must consider the actual
+     environment. As such the tool must consider both
+     switches specified in the GPR file, and also switches
+     that would be passed to the compiler, spark, or
+     gnatcheck on the command-line.
+  """
+}
+
+Requirement runtime {
+  description = """
+     Enforce that only one of the certified Ada run-times is
+     used (or the -nostdlib) switch is present.
+  """
+  process_ref = [
+    "process/unit-design.html#create-project-file"
+  ]
+}
+
+Requirement target {
+  description = """
+     Enforce that only one of the certified targets is used.
+  """
+  process_ref = [
+    "process/unit-design.html#create-project-file"
+  ]
+}
+
+Requirement required_compiler_switches {
+  description = """
+     Enforce that all compiler switches required are
+     specified.
+  """
+  process_ref = [
+    "switches.html#requirements-concerning-compiler-warning-switches",
+    "switches.html#requirements-concerning-non-warning-related-compiler-switches"
+  ]
+}
+
+Requirement banned_compiler_switches {
+  description = """
+     Enforce that all compiler switches not explicitly
+     permitted are not specified.
+  """
+  process_ref = [
+    "switches.html#requirements-concerning-compiler-warning-switches",
+    "switches.html#requirements-concerning-non-warning-related-compiler-switches"
+  ]
+}
+
+Requirement required_gnatprove_switches {
+  description = """
+     Enforce that all gnatprove switches required are
+     specified.
+  """
+  process_ref = [
+    "switches.html#requirements-concerning-gnatprove-switches"
+  ]
+}
+
+Requirement banned_gnatprove_switches {
+  description = """
+     Enforce that all gnatprove switches not explicitly
+     permitted are not specified.
+  """
+  process_ref = [
+    "switches.html#requirements-concerning-gnatprove-switches"
+  ]
+}
+
+Requirement required_gnatcheck_switches {
+  description = """
+     Enforce that all gnatcheck switches required are
+     specified.
+  """
+  process_ref = [
+    "switches.html#requirements-concerning-gnatcheck-switches-and-rules"
+  ]
+}
+
+Requirement banned_gnatcheck_switches {
+  description = """
+     Enforce that all gnatcheck switches not explicitly
+     permitted are not specified.
+  """
+  process_ref = [
+    "switches.html#requirements-concerning-gnatcheck-switches-and-rules"
+  ]
+}
+
+Requirement required_gnatcheck_rules {
+  description = """
+     Enforce that all gnatcheck rules required are
+     specified. Some rules may have required configuration;
+     when checking for a rule being enabled this required
+     configuration is also enforced.
+  """
+  process_ref = [
+    "switches.html#requirements-concerning-gnatcheck-switches-and-rules"
+  ]
+}
+
+Requirement required_pragmas {
+  description = """
+     Enforce that all global configuration pragmas required
+     are specified.
+  """
+  process_ref = [
+    "process/unit-design.html#create-configuration-pragmas"
+  ]
+}
+
+Requirement banned_gpr_features {
+  description = """
+     Enforce that none of the banned GPR features from the
+     SPARK process are used. Specifically this means the
+     Naming package must not appear.
+  """
+  process_ref = [
+    "process/unit-design.html#create-project-file"
+  ]
+}

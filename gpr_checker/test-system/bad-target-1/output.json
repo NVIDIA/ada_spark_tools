@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "Project",
+    "name": "Test",
+    "attributes": {
+      "Target": "potato64"
+    },
+    "packages": {}
+  }
+]

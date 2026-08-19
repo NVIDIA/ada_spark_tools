@@ -43,8 +43,13 @@ $ pip3 install -r requirements.txt
 ## Documentation
 
 * [User Manual](docs/user_manual.md)
+* [Safety Manual](docs/safety_manual.md)
 * [Roadmap](ROADMAP.md)
 * [Changelog](CHANGELOG.md)
+* [Requirements and traceability](qualification/README.md)
+
+Note: this tool is _not yet qualified_, although some of the material
+needed to do so exists (e.g. a safety manual).
 
 ## Development quick-start
 
@@ -52,6 +57,8 @@ $ pip3 install -r requirements.txt
 * Run linters: `make lint`
 * Run the test-suite: `make test`, coverage report can be found in
   `htmlcov/index.html`; test status can be judged with `git diff`
+* Generate the traceability report with `make -C qualification`. The
+  report can be found in `qualification/lobster_report.html`.
 
 # License
 

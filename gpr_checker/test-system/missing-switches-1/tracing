@@ -1,0 +1,4 @@
+required_compiler_switches
+required_gnatprove_switches
+required_gnatcheck_switches
+required_gnatcheck_rules
